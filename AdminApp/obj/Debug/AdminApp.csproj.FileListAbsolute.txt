@@ -1,0 +1,6 @@
+C:\Users\пк1\source\repos\AdminApp\AdminApp\bin\Debug\AdminApp.exe.config
+C:\Users\пк1\source\repos\AdminApp\AdminApp\bin\Debug\AdminApp.exe
+C:\Users\пк1\source\repos\AdminApp\AdminApp\bin\Debug\AdminApp.pdb
+C:\Users\пк1\source\repos\AdminApp\AdminApp\obj\Debug\AdminApp.exe
+C:\Users\пк1\source\repos\AdminApp\AdminApp\obj\Debug\AdminApp.pdb
+C:\Users\пк1\source\repos\AdminApp\AdminApp\obj\Debug\AdminApp.csprojResolveAssemblyReference.cache
