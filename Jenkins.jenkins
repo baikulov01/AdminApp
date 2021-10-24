@@ -12,5 +12,9 @@ pipeline {
           bat 'test.bat'
       }
     }
+    stage('Archive') {
+      steps {
+        bat 'rar.bat'
+      }
    }
 }
