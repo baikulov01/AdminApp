@@ -22,7 +22,8 @@ pipeline {
         bat 'derar.bat'
       }
     }
-    post {
+  }
+  post {
         failure {
             script {
                 mail (to: 'baikulov0@gmail.com',
@@ -40,7 +41,7 @@ pipeline {
 
                   );
                 }
-          }
+         }
     }
-   }
+   
 }
