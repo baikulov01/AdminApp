@@ -12,7 +12,7 @@ namespace AnimalTest
         {
             Animal animal = new Animal();
             int expectedNumber = 5;
-            int number = animal.GetNumberOfLegs(expectedNumber);
+            int number = animal.GetNumberOfLegs(4);
             Assert.AreEqual(expectedNumber, number);
         }
     }
