@@ -10,7 +10,7 @@ namespace AdminApp
     {
         static void Main(string[] args)
         {
-            //var animal = new Animal();
+            var animal = new Animal();
             Console.WriteLine(animal.GetNumberOfLegs(4));
             Console.ReadKey();
         }
