@@ -22,5 +22,24 @@ pipeline {
         bat 'derar.bat'
       }
     }
+    post {
+        failure {
+            script {
+                mail (to: 'baikulov0@gmail.com',
+                        subject: "Job '${env.JOB_NAME}' (${env.BUILD_NUMBER}) failed",
+                        body: "Please visit ${env.BUILD_URL} for further information"
+                );
+                }
+            }
+         success {
+             script {
+                mail (to: 'baikulov0@gmail.com',
+                        subject: "Job '${env.JOB_NAME}' (${env.BUILD_NUMBER}) success.",
+                        body: "Please visit ${env.BUILD_URL} for further information.",
+
+
+                  );
+                }
+          }
    }
 }
