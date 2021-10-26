@@ -20,7 +20,6 @@ pipeline {
     stage('Dearchive') {
       steps {
         bat 'derar.bat'
-
       }
     }
    }
