@@ -17,5 +17,10 @@ pipeline {
         bat 'rar.bat'
       }
     }
+    stage('Dearchive') {
+      steps {
+        bat 'derar.bat'
+      }
+    }
    }
 }
