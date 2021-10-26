@@ -20,13 +20,7 @@ pipeline {
     stage('Dearchive') {
       steps {
         bat 'derar.bat'
-        mail(
-  to: 'baikulov0@gmail.com',
-  from: 'baikulov0@gmail.com', 
-  replyTo: 'baikulov0@gmail.com', 
-  subject: 'your custom jenkins report', 
-  body: 'custom report here',
-)
+
       }
     }
    }
