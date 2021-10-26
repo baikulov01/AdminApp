@@ -10,7 +10,7 @@ namespace AdminApp
     {
         public int GetNumberOfLegs(int number)
         {
-            return number;
+            return 5;
         }
     }
 }
